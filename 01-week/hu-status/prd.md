@@ -10,7 +10,7 @@ project_key: PRJ-FERRETERIA-V13
 
 ## Human Entrada Context
 
-### 00-contexto-inicial.md
+## 00-contexto-inicial.md
 
 # Contexto inicial
 
@@ -20,7 +20,7 @@ El sistema buscado no es un punto de venta ni un sistema para registrar cada ven
 
 Preferencia tecnologica del producto para esta prueba: Angular para la interfaz, Go para backend y MySQL para base de datos.
 
-### 01-necesidades-y-problemas.md
+## 01-necesidades-y-problemas.md
 
 # Necesidades y problemas
 
@@ -33,7 +33,7 @@ Preferencia tecnologica del producto para esta prueba: Angular para la interfaz,
 
 Problema principal: el administrador no tiene visibilidad inmediata del estado financiero y solo puede reconstruirlo manualmente.
 
-### 02-procesos-actuales.md
+## 02-procesos-actuales.md
 
 # Procesos actuales
 
@@ -49,7 +49,7 @@ Proceso esperado:
 
 No se requiere inventario detallado ni registrar cada producto vendido.
 
-### 03-preguntas-abiertas.md
+## 03-preguntas-abiertas.md
 
 # Preguntas abiertas
 
@@ -62,7 +62,7 @@ No se requiere inventario detallado ni registrar cada producto vendido.
 - Se necesita adjuntar comprobantes o fotos de recibos en una fase futura?
 - Que nivel de seguridad se espera para acceso al sistema?
 
-### 04-glosario-negocio.md
+## 04-glosario-negocio.md
 
 # Glosario de negocio
 
@@ -75,10 +75,3 @@ No se requiere inventario detallado ni registrar cada producto vendido.
 - Periodo: rango de consulta, por ejemplo dia, semana o mes.
 - Categoria: clasificacion del movimiento para entender su origen o destino.
 
----
-
-## Historical Traceability Note (Audit Compliance)
-
-> **Course Audit Trail — Week 1 Baseline Preservation:**  
-> This file preserves the authentic historical record of the Week 1 exploratory exercise (`PRJ-FERRETERIA-V13`, Go/MySQL/Angular) originally seeded in commit `b4ae1cc`.  
-> Starting in Week 2, Team G1 formally pivoted from the exploratory ferreteria practice to the official course project **EduTrack** (`PRJ-EDUTRACK-MVP1`, Java 21/Spring Boot/PostgreSQL/RabbitMQ). The full specifications for EduTrack are maintained in `PDR.md` and subsequent weekly deliverables (`02-week/` through `06-week/`).
