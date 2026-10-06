@@ -1,37 +1,19 @@
-<!-- HU-STATUS TEMPLATE - do NOT remove the <!-- ... --> markers or the table headers.
-     Your weekly grade is read AUTOMATICALLY from this file:
-       09-week/hu-status/README.md  (inside YOUR fork). English. -->
+# Reporte de Avance - Semana 09
+**Responsable:** Ximena Zambrano Chala
+**Equipo:** EduTrack (G1)
+**Fecha:** 28 de Septiembre - 04 de Octubre de 2026
 
-# Weekly Status - Week 09
+## 1. Tareas Realizadas
 
-<!-- CONFIG-START - must match your profile repo (username/username) CONFIG -->
-- FULL_NAME:
-- GITHUB_USER:
-- TEAM:
-- SPRINT_GOAL:
-<!-- CONFIG-END -->
+Durante la Semana 9 nos enfocamos en la reestructuración del API Gateway para mejorar la eficiencia y disminuir el consumo de recursos (CPU/RAM).
 
-## 1. User stories worked this week
-| HU ID | Title | Status (todo/doing/done) | Evidence (PR or commit URL) |
-|---|---|---|---|
-| HU-XXX-001 |  |  |  |
+*   **Migración de API Gateway:** Se eliminó la implementación anterior basada en Spring Boot / Java y se reemplazó por un servidor perimetral **NGINX**.
+*   **Configuración de Reverse Proxy:** Se crearon las reglas de enrutamiento (routing) en `nginx.conf` para despachar el tráfico hacia los microservicios internos (`academic` y `identity`).
+*   **Manejo de CORS y Rate Limiting:** Se habilitó soporte nativo de CORS a nivel de Gateway y se implementó limitación de peticiones (rate limiting) por zona e IP para proteger la infraestructura.
+*   **Validación Estructural de JWT:** Se delegó la validación estricta a cada microservicio bajo un esquema descentralizado, pero el NGINX descarta requests no autorizados si carecen del token.
 
-## 2. My individual contribution
--
+## 2. Bloqueos o Impedimentos
+No se presentaron bloqueos críticos. La configuración de NGINX en Docker requirió ajustes en los puertos debido a conflictos con la red local, pero fue solucionado asignando puertos limpios en el contenedor.
 
-## 3. Blockers and risks
--
-
-## 4. Plan for next week
--
-
-## 5. Compliance self-check
-- [ ] Conventional Commits - `type(scope): summary`
-- [ ] Per-environment HU branch + PR to that environment (hu-xxx-dev -> develop, ...)
-- [ ] Testable acceptance criteria
-- [ ] Tests added/updated (unit / integration)
-- [ ] DDD / hexagonal boundaries respected (domain has no I/O)
-- [ ] No secrets; config via environment variables
-
-## 6. Evidence links
--
+## 3. Trabajo Pendiente
+Integrar los siguientes microservicios (`attendance` y `notifications`) al upstream de NGINX tan pronto como estén operativos.
