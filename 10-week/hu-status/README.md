@@ -1,20 +1,22 @@
-# Reporte de Avance - Semana 10
-**Responsable:** Ximena Zambrano Chala
-**Equipo:** EduTrack (G1)
-**Fecha:** 05 de Octubre - 11 de Octubre de 2026
+# Weekly Status - Week 10
 
-## 1. Tareas Realizadas
+**Full Name:** Ximena Del Pilar  
+**Role:** Tech Lead / Frontend  
 
-Durante la Semana 10, realizamos una auditoría profunda de la arquitectura y la gobernanza del proyecto para alinear al equipo 100% con los lineamientos oficiales (Anexo J) estipulados por el profesor.
+## User Stories (Historias de Usuario)
+- [HU-GOV-001] Inyección de reglas Git Cherry-Pick en Trello.
+- [HU-SEC-002] Auditoría de credenciales expuestas en los repositorios públicos.
+- [HU-CI-003] Aplicación de políticas de seguridad y límites (timeout, concurrency) en GitHub Actions.
 
-*   **Auditoría y Recuperación Histórica:** Se detectó que algunas ramas antiguas habían sido borradas al completar los PRs (squash/merge). Se ejecutó un proceso de `git reflog` y `git branch` para restaurar todo el historial de ramas perdidas en todos los repositorios (cumpliendo la regla estricta de no borrar historial para la trazabilidad de notas).
-*   **Alineación Arquitectónica (Anexo J):** Se reescribió el documento de arquitectura `ADR-003` para transicionar formalmente de "Database per Service" a un esquema más eficiente: **Single Instance per Engine with a Schema per Domain**.
-*   **Refactorización de Infraestructura PostgreSQL:** El repositorio `educk-infra` fue renombrado a `educk-infra-postgres`. Se refactorizó el `docker-compose.yml` para levantar un único contenedor de PostgreSQL 16 que provee esquemas independientes lógicos para `identity`, `academic`, `attendance` y `notifications` mediante scripts de inicialización SQL automáticos.
-*   **Incorporación de MongoDB:** Se creó y configuró un nuevo repositorio `educk-infra-mongo` dedicado a levantar el motor documental NoSQL para manejar el dominio de `communication`.
-*   **Validación de Pruebas:** Se actualizó `smoke_test.py` y `.env.example` consolidando las pruebas de puertos y de carga para reflejar la nueva topología simplificada y ahorrar recursos de máquina.
+## PRs & Commits (Evidencia)
+* **educk-front (Frontend):** [PR #15](https://github.com/code-corhuila/educk-front/pull/15) - `chore(ci): apply required github actions limits`
+* **educk-api-gateway:** [PR #13](https://github.com/code-corhuila/educk-api-gateway/pull/13) - `chore(ci): apply required github actions limits`
+* **educk-worker:** [PR #13](https://github.com/code-corhuila/educk-worker/pull/13) - `chore(ci): apply required github actions limits`
+* **edutrack (Orquestador):** [PR #17](https://github.com/code-corhuila/edutrack/pull/17) - `chore(ci): apply required github actions limits`
+* **educk-academic-api:** [PR #10](https://github.com/code-corhuila/educk-academic-api/pull/10) - `chore(ci): apply required github actions limits`
 
-## 2. Bloqueos o Impedimentos
-Para aplicar la nueva infraestructura, el profesor debía autorizar el cambio y crear los repositorios a nivel de organización (`code-corhuila`). Se redactaron y escalaron formalmente los Issues en `educk-docs`, los cuales fueron aprobados y aprovisionados rápidamente, permitiendo continuar con el Sprint sin retrasos prolongados.
+*(Total: 13 PRs creados e integrados vía Auto-Merge para cumplimiento de políticas).*
 
-## 3. Trabajo Pendiente
-Continuar el ciclo de revisión de PRs de UI (`educk-front`) e iniciar las pruebas de integración entre los microservicios, el NGINX y las nuevas bases de datos compartidas.
+## Actividades Adicionales
+- Liderazgo en la actualización de la arquitectura y gobierno del equipo.
+- Configuración de per-environment Git-Flow (`develop` -> `qa` -> `main`) respetando la regla estricta de `git cherry-pick -x`.
