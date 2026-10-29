@@ -50,3 +50,4 @@
   - https://github.com/code-corhuila/educk-docs/issues/73
 - Peer Review Comment: https://github.com/code-corhuila/educk-docs/pull/65#issuecomment-6484855833
 - Workshop Folder: https://github.com/XimenaChala/sistemas-distribuidos-2026-b-g1/tree/main/13-week/workshop
+- Reflection Doc: https://docs.google.com/document/d/15PNtt4mSsoqddjXmfGP9EjrgSMKK0zzOBRbX11UQuNs/edit?usp=sharing

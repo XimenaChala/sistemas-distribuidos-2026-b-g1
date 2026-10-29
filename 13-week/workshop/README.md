@@ -7,7 +7,7 @@
 - DOCS_REPO: https://github.com/code-corhuila/educk-docs
 - BOUNDARY: educk-api-gateway -> educk-communication-api (inbound HTTP)
 - CLAIM_ISSUE: https://github.com/code-corhuila/educk-docs/issues/66
-- REFLECTION_DOC: (pending - W13 Reflection - Ximena Del Pilar Zambrano Chala)
+- REFLECTION_DOC: https://docs.google.com/document/d/15PNtt4mSsoqddjXmfGP9EjrgSMKK0zzOBRbX11UQuNs/edit?usp=sharing
 - LIBRARY_BOOK: Andrew S. Tanenbaum, Maarten van Steen. Sistemas distribuidos: principios y paradigmas. 2nd ed. Pearson Educacion, 2008. Call number: (pending)
 - LIBRARY_RECORD_TIME: (filled in CP2)
 - STORIES: https://github.com/code-corhuila/educk-docs/issues/71, https://github.com/code-corhuila/educk-docs/issues/72, https://github.com/code-corhuila/educk-docs/issues/73
