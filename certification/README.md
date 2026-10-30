@@ -19,7 +19,8 @@
 | Date | Hours | Chapters or labs | Evidence file |
 |---|---|---|---|
 | 2026-10-30 | 2 | Platform enrollment and class registration (code zwCDqR) | evidence/00-enrollment.png |
-| Total | 2 | | |
+| 2026-10-30 | 2 | Pre-class Guidance & Chapter 1: Architecture Design Methodology on Huawei Cloud | evidence/01-chapter-01.png |
+| Total | 4 | | |
 
 ## Labs
 
