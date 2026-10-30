@@ -1,43 +1,41 @@
-# Certification C3 — <Full name>
-
-> Template of the corte 3 certification. Replace every `<...>` with your data and delete this note. The rules are in the guide attached to the c3-certification activity in Moodle. Text left as `<...>` counts as missing.
+# Certification C3 — Ximena Del Pilar Zambrano Chala
 
 ## Cover
 
 | Field | Value |
 |---|---|
-| Full name | <Full name exactly as in Moodle> |
-| GitHub user | <github-user> |
-| Group | <G1 or G2> |
-| Team | <Team name> |
-| Team -docs repository | <https://github.com/code-corhuila/...-docs> |
-| Course | <Exact course name> |
-| Course link | <Course URL> |
-| Start date | <YYYY-MM-DD> |
-| Completion date | <YYYY-MM-DD> |
+| Full name | Ximena Del Pilar Zambrano Chala |
+| GitHub user | XimenaChala |
+| Group | G1 |
+| Team | EduTrack |
+| Team -docs repository | https://github.com/code-corhuila/educk-docs |
+| Course | HCCDP-Solution Architectures Course |
+| Course link | https://e.huawei.com/en/talent/ict-academy/#/ict-courses-detail?courseId=6WtKiPd1S1YelBB0AUbE1vXlPgk |
+| Start date | 2026-10-30 |
+| Completion date | 2026-11-15 |
 
 ## Study log
 
 | Date | Hours | Chapters or labs | Evidence file |
 |---|---|---|---|
-| <YYYY-MM-DD> | <h> | <Chapters or labs> | <evidence/NN-....png> |
-| Total | <sum> | | |
+| 2026-10-30 | 2 | Platform enrollment and class registration (code zwCDqR) | evidence/00-enrollment.png |
+| Total | 2 | | |
 
 ## Labs
 
 | Evidence file | Lab name | What I built | What failed first and how I fixed it |
 |---|---|---|---|
-| evidence/15-lab-1.png | <Lab name> | <One sentence> | <One sentence> |
-| evidence/16-lab-2.png | <Lab name> | <One sentence> | <One sentence> |
-| evidence/17-lab-3.png | <Lab name> | <One sentence> | <One sentence> |
-| evidence/18-lab-4.png | <Lab name> | <One sentence> | <One sentence> |
+| evidence/15-lab-1.png | Scheduled Lab 1 | Pending completion in Week 3 | In progress |
+| evidence/16-lab-2.png | Scheduled Lab 2 | Pending completion in Week 3 | In progress |
+| evidence/17-lab-3.png | Scheduled Lab 3 | Pending completion in Week 3 | In progress |
+| evidence/18-lab-4.png | Scheduled Lab 4 | Pending completion in Week 3 | In progress |
 
 ## Final exam
 
-- Score: <score>
-- Date: <YYYY-MM-DD>
+- Score: Pending completion
+- Date: 2026-11-15
 - Evidence: evidence/19-final-exam.png
 
 ## Skills summary
 
-<5 to 7 lines in English, first person, naming at least three concrete design techniques from the course.>
+In this certification I focus on cloud architecture design, distributed system scalability, and automated deployments on Huawei Cloud. I am applying cloud-native microservice decoupling, multi-AZ high availability patterns, and managed disaster recovery strategies to our team project EduTrack.
