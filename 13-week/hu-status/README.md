@@ -22,9 +22,11 @@
 - Claimed and modeled the trust boundary `educk-api-gateway -> educk-communication-api` (Issue #66).
 - Mapped attack surface and system data flows with asset inventory (restricted, confidential, internal, public) in `01-attack-surface.md`.
 - Completed STRIDE threat matrix (6 threats) with risk scoring, residual risk assessment, and physical book citations from Tanenbaum & Van Steen (2008) in `stride-XimenaChala.md` (PR #70).
-- Created 3 security user stories in the team backlog with priority labels P0/P1 and automated acceptance criteria (#71, #72, #73).
-- Implemented CI security workflow proposal (`security.yml`) with gitleaks, dependency vulnerability scanning, and an automated negative authorization test (`ConversationAuthorizationNegativeTest.java`) demonstrating 403 Forbidden on IDOR attempt.
+- Addressed peer review feedback from @CelesteDussan on STRIDE PR #70 (commit `a90a6a3`), decoupling IDOR mitigation from raw headers and binding actor identity to the verified `SecurityContext` principal.
+- Created and refined 3 security user stories in the team backlog with priority labels P0/P1, testable criteria, and cross-links to related stories (#71, #72, #73).
+- Implemented CI security workflow proposal (`security.yml`), validated its syntax, and executed the automated negative authorization test (`ConversationAuthorizationNegativeTest.java`) locally with Maven (3 tests run, 0 failures).
 - Conducted peer review on teammate @CelesteDussan's STRIDE PR #65.
+- Documented project security implementation plan in the W13 reflection document.
 
 ## 3. Blockers and risks
 - `educk-communication-api` currently trusts `X-User-Id` propagated by the gateway without caller re-authentication (ADR-006).
@@ -44,6 +46,7 @@
 ## 6. Evidence links
 - Claim Issue: https://github.com/code-corhuila/educk-docs/issues/66
 - STRIDE PR: https://github.com/code-corhuila/educk-docs/pull/70
+- STRIDE Review Response: https://github.com/code-corhuila/educk-docs/pull/70#issuecomment-6530514735
 - Security Stories:
   - https://github.com/code-corhuila/educk-docs/issues/71
   - https://github.com/code-corhuila/educk-docs/issues/72
