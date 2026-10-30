@@ -41,14 +41,13 @@ mvn test -Dtest=ConversationAuthorizationNegativeTest
 [INFO] ------------------------------------------------------------------------
 ```
 
-
 ---
 
 ## 3. Real Console Execution Output (Recorded in CP8)
 
-Executed on local environment: Windows 11, JDK 21 (Eclipse Adoptium 21.0.9), Apache Maven 3.9.9 against educk-communication-api:
+Executed on local environment: Windows 11, JDK 21 (Eclipse Adoptium 21.0.9), Apache Maven 3.9.9 against `educk-communication-api`:
 
-\\	ext
+```text
 [INFO] Scanning for projects...
 [INFO] 
 [INFO] -----------< com.corhuila.edutrack:educk-communication-api >------------
@@ -88,14 +87,15 @@ Executed on local environment: Windows 11, JDK 21 (Eclipse Adoptium 21.0.9), Apa
 [INFO] Total time:  9.406 s
 [INFO] Finished at: 2026-10-30T13:32:58-05:00
 [INFO] ------------------------------------------------------------------------
-\
+```
+
 ---
 
 ## 4. Workflow Validation Result (security.yml)
 
-The GitHub Actions workflow security.yml was validated locally using PyYAML syntax parser and schema checks:
+The GitHub Actions workflow `security.yml` was validated locally using PyYAML syntax parser and schema checks:
 
-\\	ext
+```text
 YAML Validation Result:
 - File: 13-week/workshop/04-security-ci/security.yml
 - Status: 100% VALID (0 syntax errors, 0 linting warnings)
@@ -104,4 +104,4 @@ YAML Validation Result:
   1. secret-scan (gitleaks/gitleaks-action@v2)
   2. dependency-audit (OWASP dependency-check-maven:check)
   3. authorization-negative-tests (mvn test -Dtest=ConversationAuthorizationNegativeTest)
-\
+```
