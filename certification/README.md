@@ -24,7 +24,8 @@
 | 2026-10-31 | 2 | Chapter 3: Cloud Compute Solution Design | evidence/03-chapter-03.png |
 | 2026-10-31 | 2 | Chapter 4: Cloud Storage Solution Design | evidence/04-chapter-04.png |
 | 2026-11-05 | 2 | Chapter 5: Cloud Network Solution Design | evidence/05-chapter-05.png |
-| Total | 12 | | |
+| 2026-11-05 | 2 | Chapter 6: Cloud Database Solution Design | evidence/06-chapter-06.png |
+| Total | 14 | | |
 
 ## Labs
 
