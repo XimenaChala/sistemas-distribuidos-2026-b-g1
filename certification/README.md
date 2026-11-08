@@ -28,7 +28,8 @@
 | 2026-11-05 | 2 | Chapter 7: Cloud Security Solution Design | evidence/07-chapter-07.png |
 | 2026-11-08 | 2 | Chapter 8: Cloud O&M Solution Design | evidence/08-chapter-08.png |
 | 2026-11-08 | 2 | Chapter 9: Distributed Architecture Design | evidence/09-chapter-09.png |
-| Total | 20 | | |
+| 2026-11-08 | 2 | Chapter 10: Highly Scalable System Design | evidence/10-chapter-10.png |
+| Total | 22 | | |
 
 ## Labs
 
