@@ -46,8 +46,8 @@
 
 ## Final exam
 
-- Score: Pending completion
-- Date: 2026-11-15
+- Score: 72/100
+- Date: 2026-11-10
 - Evidence: evidence/19-final-exam.png
 
 ## Skills summary
