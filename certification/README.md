@@ -31,7 +31,8 @@
 | 2026-11-08 | 2 | Chapter 10: Highly Scalable System Design | evidence/10-chapter-10.png |
 | 2026-11-10 | 2 | Chapter 11: Disaster Recovery System Design | evidence/11-chapter-11.png |
 | 2026-11-10 | 2 | Chapter 12: Automated Deployment | evidence/12-chapter-12.png |
-| Total | 26 | | |
+| 2026-11-10 | 2 | Chapter 13: Containers and Agility | evidence/13-chapter-13.png |
+| Total | 28 | | |
 
 ## Labs
 
