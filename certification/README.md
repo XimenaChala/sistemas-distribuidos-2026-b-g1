@@ -30,7 +30,8 @@
 | 2026-11-08 | 2 | Chapter 9: Distributed Architecture Design | evidence/09-chapter-09.png |
 | 2026-11-08 | 2 | Chapter 10: Highly Scalable System Design | evidence/10-chapter-10.png |
 | 2026-11-10 | 2 | Chapter 11: Disaster Recovery System Design | evidence/11-chapter-11.png |
-| Total | 24 | | |
+| 2026-11-10 | 2 | Chapter 12: Automated Deployment | evidence/12-chapter-12.png |
+| Total | 26 | | |
 
 ## Labs
 
