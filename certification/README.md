@@ -32,7 +32,8 @@
 | 2026-11-10 | 2 | Chapter 11: Disaster Recovery System Design | evidence/11-chapter-11.png |
 | 2026-11-10 | 2 | Chapter 12: Automated Deployment | evidence/12-chapter-12.png |
 | 2026-11-10 | 2 | Chapter 13: Containers and Agility | evidence/13-chapter-13.png |
-| Total | 28 | | |
+| 2026-11-11 | 2 | Chapter 14: Huawei Cloud Advanced Services | evidence/14-chapter-14.png |
+| Total | 30 | | |
 
 ## Labs
 
